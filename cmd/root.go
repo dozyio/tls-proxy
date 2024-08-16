@@ -37,5 +37,5 @@ func init() {
 	rootCmd.Flags().StringP("listen", "l", ":443", "The address to listen on.")
 	rootCmd.Flags().StringP("cert", "c", "", "The path to the certificate to use.")
 	rootCmd.Flags().StringP("key", "k", "", "The path to the key to use.")
-	rootCmd.Flags().StringP("loglevel", "v", "DEBUG", "Log level to use DEBUG,INFO,WARN,ERROR,PANIC,PANIC,FATAL")
+	rootCmd.Flags().StringP("loglevel", "v", "DEBUG", "Log level to use DEBUG,INFO,WARN,ERROR,PANIC,FATAL")
 }
